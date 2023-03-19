@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
-*{margin: 0; padding: 0; font-family: 'Nanum Gothic', sans-serif;}
 #user-index-wrap {width: 100%; height: auto; font-size: 15px; }
 #user-index-wrap>#nav-wrap{width: 100%;border: 1px solid rgb(187, 187, 187);}
 #user-index-wrap>#content-wrap{width: 100%; height:auto; border: 1px solid rgb(187, 187, 187);}
@@ -9,12 +7,14 @@
 /*자식이 height값을 가지고 있으면 부모의 height 값은 없어도 된다.
  width: 100%는 기본값이기 때문에 없어도 된다 */
 
- @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
- * {
-     font-family: 'Spoqa Han Sans Neo', 'sans-serif';
- }
-
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFEFE;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
  a {
      text-decoration: none;
      color: black;
@@ -125,14 +125,7 @@
 }
 
 
-@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
-* {
-    margin: 0;
-    padding: 0;
-    background-color: #FFFEFE;
-    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
-}
 
 #index-wrap {
     width: 100%;
@@ -307,6 +300,7 @@ td{
 }
 .history-table{
     width: 650px;
+    margin-left: 80px;
 }
 .history{
     width: 300px;

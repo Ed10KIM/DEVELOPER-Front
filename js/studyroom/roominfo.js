@@ -1,4 +1,5 @@
 $(()=>{
+  userCheckLogined()
   let logined = sessionStorage.getItem("logined");
 
     let url = backURL+'studyroom/roominfo/'

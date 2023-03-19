@@ -1,3 +1,11 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFEFE;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
 *{
     box-sizing: border-box;
     text-align: center;
@@ -149,10 +157,14 @@ div.opTime{
 }
 div.studycafeInfo{
     max-height: 1000px;
+    background-color: #F9F9F9
 }
 .roomReviewTable{
     margin-bottom: -50px;
    
+}
+.starclass{
+    display: none;
 }
 .nickname{
     width: 250px;
@@ -244,14 +256,6 @@ background-color: #F9F9F9
 }
 .study-body{
     background-color: #F9F9F9
-}
-@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
-
-* {
-    margin: 0;
-    padding: 0;
-    background-color: #FFFEFE;
-    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 }
 
 #index-wrap {

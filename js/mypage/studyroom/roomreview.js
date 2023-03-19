@@ -83,7 +83,7 @@ $(()=>{
        let roomName=$(e.target).children('div.rNamequery').text()
        let resSeq=$(e.target).children('div.seqQuery').text()
        location.href =
-         frontURL+"mypage/roomreview.html?" +
+         frontURL+"mypage/studyroom/addreview.html?" +
          srName +
          "&" +
          roomName +
@@ -96,14 +96,15 @@ $(()=>{
 
         //--자세히 보기 버튼 START--
        $(document).on('click','#viewBtn', (e)=>{
-       //let srName=$(e.target).parent('div.review-content1').find('#reviewTextBox').attr("style","display:block;")
-       $(e.target).parent("div.review-content1").find("#reviewTextBox")
-       if (
-         $(e.target)
-           .parent("div.review-content1")
-           .find("#reviewTextBox")
-           .is(":visible")
-       ) {
+           //let srName=$(e.target).parent('div.review-content1').find('#reviewTextBox').attr("style","display:block;")
+           $(e.target).parent("div.review-content1").find("#reviewTextBox")
+           if (
+               $(e.target)
+               .parent("div.review-content1")
+               .find("#reviewTextBox")
+               .is(":visible")
+               ) {
+           console.log('클릭')
           $(e.target)
             .parent("div.review-content1")
             .find("#reviewTextBox")

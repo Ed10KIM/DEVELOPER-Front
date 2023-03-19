@@ -36,7 +36,7 @@ $(()=>{
 
       success: function (data) {
         alert("후기 작성을 완료했습니다");
-        location.href = frontURL + "mypage/roomreview.html";
+        location.href = frontURL + "mypage/studyroom/roomreview.html";
       },
       error: function (xhr) {
         alert("로그인 하세요");

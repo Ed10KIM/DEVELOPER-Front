@@ -1,5 +1,5 @@
 $(()=>{
-   
+   userCheckLogined()
    
     //--스터디 카페 목록 보여주기용 함수 START --
     function showList(result){
